@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EvolutionModelTest" annotations="JDK" time-out="2000">
+
+    <test name="test" verbose="10" annotations="JDK" time-out="2000">
+        <packages>
+            <package name="com.vano.projects.evolution"></package>
+        </packages>
+    </test>
+
+</suite>
